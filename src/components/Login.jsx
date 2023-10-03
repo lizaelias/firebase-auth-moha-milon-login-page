@@ -77,7 +77,7 @@ const Login = () => {
               <p>New Here ? please <Link to="/register">
              <button className="btn btn-link">login</button>
              </Link></p>
-             <p><button onClick={signInWithGoogle} className="btn btn-ghost"> Google</button></p>
+             <p><button onClick={handleGoogle} className="btn btn-ghost"> Google</button></p>
             </div>
           </div>
         </div>
